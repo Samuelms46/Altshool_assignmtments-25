@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+</head>
+<body>
+    <nav>
+        <ul><a href="../Assignment2/table.html">Table</a></ul>
+    </nav>
+     <header>
+        <h1>More About Me</h1>
+        <p>Hi, I'm Samuel Muwanguzi diving deep into the Frontend Engineering Field.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Where It All Began</h2>
+            <p>From my year one, I have always been interested in working on the front-end side of development. I was introduced to HTML in my 2nd semester of year one and from then, 
+                I have always been learning and collaborating on projects but focusing my on the Frontend side.</p>
+
+            <h3>The Responsive Picture Element</h3>
+            <p>This image shows the flexibility and responnsiveness of different views according to the used devices.</p>
+
+            <picture>
+                <!-- Source for Mobile Devices (e.g., screens up to 600px wide) -->
+                <source media="(width <= 600px)" srcset="https://placehold.co/400x250/FFD700/000000?text=Mobile+View+-+Finally!!">
+                <!-- Source for Tablet Devices (e.g., screens between 601px and 1024px wide) -->
+                <source media="(width <= 1024px)" srcset="https://placehold.co/700x400/ADFF2F/000000?text=Tablet+View+-+Changes+To+This">
+                <!-- Default image for Laptops and larger screens -->
+                <img src="https://placehold.co/1000x600/87CEEB/000000?text=Desktop+View+-+Looks+Like+This" alt="responnsiveness of the image on different devices" style="width:100%; height: auto;">
+            </picture>
+
+        </section>
+
+        <section>
+            <h2>May I have a voice: An affirmation in an audio format</h2>
+            <p>I have an affirmation is usauly say to my self, it goes like "And when its my turn to speak, 
+                may I have a voice. Opprotunities find me ready." Listen to a brief audio message explaining what I really mean by this saying.</p>
+            <audio controls>
+                <!-- audio file-->
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <section>
+            <h2>Motion Graphics: Video clip showing on of my works</h2>
+            <p>Besides coding, I do love making lyrical videos that bring out the message in songs. This video capturing one o the videos I created back then.</p>
+            <video controls width="100%" height="auto">
+                <!-- video file -->
+                <source src="https://videos.pexels.com/video-files/1536315/1536315-hd_1920_1080_30fps.mp4" type="video/mp4">
+
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Samuel Muwanguzi. All rights reserved.</p>
+        <p><a href="../Assignment1/index.html">Find my basic info here</a></p>
+    </footer>
+</body>
+</html>
